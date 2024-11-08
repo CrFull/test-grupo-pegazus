@@ -149,7 +149,7 @@ main section#program > div:first-child i{
     margin-right: 20px;
 }
 
-main section#program > div:first-child i:hover{
+main section#program > div:first-child i:hover, main section#program > div:nth-child(2) ul li span:hover {
     color:#d79447;
 }
 
@@ -166,6 +166,26 @@ main section#program > div:nth-child(2) ul li{
     background-color: #1f2125;
     padding: 1rem;
     border-radius: 10px;
+}
+
+main section#program > div:nth-child(2) ul li  > i:first-of-type{
+    background-color:  #d79447;
+    font-size: 1.4rem;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* main section#program > div:nth-child(2) ul li a i{
+    margin-left: 10px;
+} */
+
+main section#program > div:nth-child(2) ul li span{
+    border: none;
+    display: flex; 
+    gap: 10px;  
+    align-items: center;
+    font-size: 0.78rem;
 }
 
 main section#program > div:nth-child(2) ul li p{
@@ -230,12 +250,12 @@ main section#program > div:nth-child(3) {
     width: 7rem;
 }
 
-.btn-primary:hover, main section#program > div:first-child i:hover{
+.btn-primary:hover, main section#program > div:first-child i:hover, main section#program > div:nth-child(2) ul li a:hover{
     transition: 0.2s ease-in-out;
     cursor: pointer;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     background-color: #d79447;
 }
 
