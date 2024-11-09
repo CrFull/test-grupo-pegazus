@@ -149,7 +149,7 @@ main section#program > div:first-child i{
     margin-right: 20px;
 }
 
-main section#program > div:first-child i:hover, main section#program > div:nth-child(2) ul li span:hover {
+main section#program > div:first-child i:hover, main section#program > div:nth-child(2) ul li a:hover span ,  main section#program > div:nth-child(2) ul li a:hover i {
     color:#d79447;
 }
 
